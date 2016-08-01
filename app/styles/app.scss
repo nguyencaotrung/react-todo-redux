@@ -3,10 +3,9 @@
 // foundation
 @import "base/foundation-settings";
 @import "foundation";
-@include foundation-everything
+@include foundation-everything;
 
-//Components
-
-@import "components/page-title";
+// Components
 @import "components/container";
-@import "components/todo.scss";
+@import "components/page-title";
+@import "components/todo";
